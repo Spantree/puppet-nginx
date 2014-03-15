@@ -1,5 +1,5 @@
 name    'spantree-nginx'
-version '0.0.2'
+version '0.0.7'
 source 'https://github.com/Spantree/puppet-nginx'
 author 'spantree'
 license 'Apache License Version 2.0'
@@ -10,3 +10,5 @@ description 'This module can be used for basic NGINX Management
 project_page 'https://github.com/Spantree/puppet-nginx'
 
 dependency 'puppetlabs/stdlib', '>= 0.1.6'
+dependency 'puppetlabs/apt', '>= 1.0.0'
+dependency 'puppetlabs/concat', '>= 1.0.0'
