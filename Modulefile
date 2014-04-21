@@ -1,12 +1,11 @@
 name    'spantree-nginx'
-version '0.0.7'
+version '0.0.9'
 source 'https://github.com/Spantree/puppet-nginx'
 author 'spantree'
 license 'Apache License Version 2.0'
 summary 'Puppet NGINX management module'
-description 'This module can be used for basic NGINX Management
-  this is a fork of https://github.com/jfryman/puppet-nginx to keep
-  a forge module we can use'
+description 'This module is deprecated temporarily, use this 
+  fork https://github.com/jfryman/puppet-nginx instead'
 project_page 'https://github.com/Spantree/puppet-nginx'
 
 dependency 'puppetlabs/stdlib', '>= 0.1.6'
